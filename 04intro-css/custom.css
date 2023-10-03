@@ -1,0 +1,144 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    background-color: #ececec;
+}
+
+/*header*/
+
+header {
+    background-color: #83ae73;
+    padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #172418;
+}
+
+header p {
+    margin: 0;
+    color: #172418;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/*nav*/
+
+nav {
+    background-color: #83ae73;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #172418;
+    font-weight: 600;
+    display: block;
+    padding: 0.83rem 1rem;
+}
+
+nav a:hover {
+    color: #ececec;
+}
+
+nav li.active a {
+    color: #ececec;
+}
+
+/*main*/
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #172418;
+}
+
+main h2 {
+    color: #83ae73;
+    margin-bottom: -0.7rem;
+}
+
+main p {
+    padding: 0 0 0.3rem 0;
+}
+
+main ul {
+    list-style-type: circle;
+    padding: 0 2vw;
+}
+
+main ol {
+    padding: 0.5rem 3vw;
+    background-color: #dadada;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    list-style-type: upper-roman;
+}
+
+main dl dt {
+    font-weight: 600;
+    color: #172418;
+}
+
+main dl dd {
+    font-size: 0.9rem;
+    padding: 0 0 0.7vw 1vw;
+}
+
+main li {
+    line-height: 125%;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #83ae73;
+    padding: 0.5rem;
+    width: 13rem;
+    border: 2px solid #172418;
+    border-radius: 5px;
+}
+
+main a {
+    color: #172418;
+}
+
+main a:hover {
+    color: #83ae73;
+}
+
+main address a:hover {
+    color: #dadada;
+}
+
+/*footer*/
+
+footer {
+    background-color: #83ae73;
+    text-align: center;
+    color: #172418;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: #172418;
+}
+
+footer a:hover {
+    color: #dadada;
+}
+
