@@ -3,24 +3,24 @@ body {
     font-size: 16px;
     font-weight: 400;
     margin: 0;
-    background-color: #ececec;
+    background-color: #fefff9;
 }
 
 /*header*/
 
 header {
-    background-color: #83ae73;
+    background-color: #295128;
     padding: 1rem 2vw;
 }
 
 header h1 {
     margin: 0;
-    color: #172418;
+    color: #fefff9;
 }
 
 header p {
     margin: 0;
-    color: #172418;
+    color: #fefff9;
     letter-spacing: 1px;
     font-weight: 600;
 }
@@ -28,7 +28,7 @@ header p {
 /*nav*/
 
 nav {
-    background-color: #83ae73;
+    background-color: #295128;
 }
 
 nav ul {
@@ -41,18 +41,18 @@ nav ul {
 nav a {
     font-size: 1.1rem;
     text-decoration: none;
-    color: #172418;
+    color: #db8d97;
     font-weight: 600;
     display: block;
     padding: 0.83rem 1rem;
 }
 
 nav a:hover {
-    color: #ececec;
+    color: #fefff9;
 }
 
 nav li.active a {
-    color: #ececec;
+    color: #fefff9;
 }
 
 /*main*/
@@ -62,11 +62,11 @@ main {
 }
 
 main h1 {
-    color: #172418;
+    color: #295128;
 }
 
 main h2 {
-    color: #83ae73;
+    color: #db8d97;
     margin-bottom: -0.7rem;
 }
 
@@ -81,15 +81,15 @@ main ul {
 
 main ol {
     padding: 0.5rem 2rem;
-    background-color: #dadada;
+    background-color: #e5eec5;
     border-radius: 5px;
-    border: 1px solid #dadada;
+    border: 1px solid #e5eec5;
     list-style-type: upper-roman;
 }
 
 main dl dt {
     font-weight: 600;
-    color: #172418;
+    color: #a2d780;
 }
 
 main dl dd {
@@ -105,7 +105,8 @@ main li {
 
 main address {
     font-style: normal;
-    background-color: #83ae73;
+    background-color: #295128;
+    color: #fefff9;
     padding: 0.5rem;
     width: 13rem;
     border: 2px solid #172418;
@@ -113,32 +114,35 @@ main address {
 }
 
 main a {
-    color: #172418;
+    color: #db8d97;
 }
 
 main a:hover {
-    color: #83ae73;
+    color: #a2d780;
+}
+main address a{
+    color: #fefff9;
 }
 
 main address a:hover {
-    color: #dadada;
+    color: #db8d97;
 }
 
 /*footer*/
 
 footer {
-    background-color: #83ae73;
+    background-color: #295128;
     text-align: center;
-    color: #172418;
+    color: #fefff9;
     padding: 1rem 0;
     font-size: 0.8rem;
 }
 
 footer a {
-    color: #172418;
+    color: #fefff9;
 }
 
 footer a:hover {
-    color: #dadada;
+    color: #db8d97;
 }
 
