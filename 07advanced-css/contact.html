@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Custom Keyboards: Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about Customizing Keyboards">
+        <meta name="author" content="Morgan Harris">
+        <link rel="stylesheet" href="custom.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="images/favicon_logo.ico">
+    </head>
+    <body>
+        <!--START OF HEADER-->
+        <header>
+            <img src="images/logo.png" alt="site logo" width="70" height="70">
+            <div>
+                <h1>Custom Keyboards</h1>
+                <p>A Beginners Guide!</p>
+            </div>
+        </header>
+        <!--START OF NAVIGATION-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="layouts.html">Layouts</a></li>
+                <li><a href="pcb.html">PCB</a></li>
+                <li><a href="materials.html">Materials</a></li>
+                <li><a href="switches.html">Switches</a></li>
+                <li><a href="keycaps.html">Keycaps</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!--START OF CONTENT-->
+        <main>
+            <h1>Contact Us</h1>
+
+            <form method="get" class="qform" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <label>First Name: <input type="text" name="fname" required></label>
+                    <label>Last Name: <input type="text" name="lname" required></label>
+                    <label>Email: <input type="email" name="email" required placeholder="johndoe@gmail.com"></label>
+                    <label>Phone Number: <input type="tel" name="phone" required placeholder="123-555-9876"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Contact Method</legend>
+                    <label><input type="radio" name="method" value="email">Email</label>
+                    <label><input type="radio" name="method" value="text">Text</label>
+                    <label><input type="radio" name="method" value="both">Both</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Type of Question</legend>
+                    <label><input type="checkbox" name="layout" value="chosen">Layout</label>
+                    <label><input type="checkbox" name="materials" value="chosen">Materials</label>
+                    <label><input type="checkbox" name="advice" value="chosen">Advice</label>
+
+                    <label>Urgency:
+                        <select name="urgency">
+                            <option value="select">Select</option>
+                            <option value="fast">Soon</option>
+                            <option value="mid">Sort of Soon</option>
+                            <option value="slow">Not so Soon</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <label>Message<textarea name="comments"></textarea></label>
+
+                <input type="submit" value="Send Message">
+            </form>
+
+        </main>
+        <!--START OF FOOTER-->
+        <footer>
+            <p>&copy; 2023 &bull; Morgan Harris &bull; <a href="mailto:ravenstar03@gmail.com">Email US</a></p>
+        </footer>
+    </body>
+</html>
