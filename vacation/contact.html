@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Discover and Go: Contact Us</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="chose from various budget vacation packages">
+        <meta name="author" content="Morgan Harris">
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+    </head>
+    <body>
+        <!--START OF HEADER-->
+        <header>
+            <img class="logo" src="media/logo.png" alt="site logo" width="125" height="79">
+            <div>
+                <h1>Discover and Go</h1>
+                <p>Budget Vacations</p>
+            </div>
+        </header>
+        <!--START OF NAVIGATION-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="guide.html">Guides</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!--START OF MAIN CONTENT-->
+        <main>
+            <h1 class="header">Contact Us</h1>
+
+            <form class="contact" method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Get in Touch</legend>
+                    <div class="info">
+                        <label>First Name<input type="text" name="fname" required></label>
+                        <label>Last Name<input type="text" name="lname" required></label>
+                        <label>Country
+                            <select name="country">
+                                <option value="select">Select</option>
+                                <option value="us">United States</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="canada">Canada</option>
+                                <option value="japan">Japan</option>
+                                <option value="china">China</option>
+                            </select>
+                        </label>
+                        <label>Phone Number<input type="tel" name="phone" required></label>
+                    </div>
+                    <div class="message">
+                        <label>Email<input type="email" name="email" required placeholder="johndoe@gmail.com"></label>
+                        <label>Message<textarea name="comments"></textarea></label>
+                    </div>
+                </fieldset>
+                <fieldset class="deals">
+                    <legend>Receive Offers and Deals</legend>
+                    <label><input type="radio" name="method" value="yes">Yes, I would like to receive offers and deals via email</label>
+                    <label><input type="radio" name="method" value="no">No, I would not like to receive offers and deals via email</label>
+                    <label><input type="radio" name="method" value="custom">I would like to customice which offers and deals I receive via email</label>
+                </fieldset>
+                <input type="submit" value="Send Message">
+            </form>
+        </main>
+        <!--START OF FOOTER-->
+        <footer>
+            <div class="left-footer">
+                <h3>Useful Links</h3>
+                <a href="#">About</a><br>
+                <a href="#">Packages</a><br>
+                <a href="#">Support</a><br>
+                <a href="#">Contact</a><br>
+            </div>
+            <div class="mid-footer">
+                <h3>Get Updates on New Deals</h3>
+                <form method="get" action="subscribe.html">
+                    <label>Subscribe<input type="email" name="email" required placeholder="Your Email Address"></label><br>
+                    <input type="submit" value="Subscribe">
+                </form>
+                <div class="bottom-footer">
+                    <p class="border"></p>
+                    <p>&copy; 2023 &bull; Morgan Harris</p>
+                </div>
+            </div>
+            <div class="right-footer">
+                <h3>Contact Us</h3>
+                <p>767 Wood Lane<br>Far Rockaway, NY 11691</p>
+                <a href="https://instagram.com">Instagram</a><br>
+                <a href="https://facebook.com">Facebook</a><br>
+                <a href="https://twitter.com">Twitter</a><br>
+            </div>
+        </footer>
+    </body>
+</html>
