@@ -127,6 +127,7 @@ body {
         .packages p {
             padding-bottom: 0.5rem;
             text-indent: 0px;
+            display: block;
         }
     
         .packages img {
@@ -153,6 +154,7 @@ body {
             letter-spacing: 2px;
             font-family: 'Poppins', sans-serif;
             text-decoration: none;
+            display: inline-block;
         }
     
         .button a:hover {
@@ -168,6 +170,7 @@ body {
             padding: 1rem;
             letter-spacing: 2px;
             text-align: center;
+            display: inline-block;
         }
 
         /*START OF CONTACT PAGE*/
@@ -480,7 +483,6 @@ body {
         background-color: #BC4B22;
         color: white;
         border-radius: 40px;
-        display: inline-block;
     }
 
     /*START OF CONTACT PAGE*/
